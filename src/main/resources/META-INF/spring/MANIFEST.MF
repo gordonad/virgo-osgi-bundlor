@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Export-Package: com.chariotsolutions.virgo;version="1.0.0"
+Bundle-Vendor: Chariot Solutions
+Bundle-Description: Static.Manifest
+Bundle-Version: 1.0.0
+Bundle-Name: Virgo Bundlor Test
+Bundle-ManifestVersion: 2
+Bundle-SymbolicName: virgo.bundlor.test
+

@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: virgo.bundlor.test
+Bundle-SymbolicName: virgo.bundlor.test
+Bundle-Vendor: Chariot Solutions
+Bundle-Description: Generated.From.Template
+Bundle-Version: 1.0.0
+Import-Template:
+ org.springframework.*;version="[3.0, 3.2)"
+Excluded-Exports:
+ com.chariotsolutions.virgo.internal

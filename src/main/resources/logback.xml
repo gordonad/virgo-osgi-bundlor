@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+    <contextListener class="ch.qos.logback.classic.jul.LevelChangePropagator">
+        <resetJUL>true</resetJUL>
+    </contextListener>
+
+    <appender name="console" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder>
+            <pattern>%.-1level|%-40.40logger{0}|%msg%n</pattern>
+        </encoder>
+    </appender>
+
+    <logger name="com.chariotsolutions" level="debug" />
+    <logger name="org.eclipse.virgo" level="trace" />
+    <logger name="org.springframework.bundlor" level="trace" />
+    <logger name="org.springframework.beans" level="info" />
+
+    <root level="warn">
+        <appender-ref ref="console" />
+    </root>
+</configuration>
