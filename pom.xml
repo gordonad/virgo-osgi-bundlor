@@ -346,6 +346,11 @@
             <name>SpringSource Enterprise Bundle Repository - Releases</name>
             <url>http://repository.springsource.com/maven/bundles/release</url>
         </pluginRepository>
+		<pluginRepository>
+            <id>ebr.bundles.external</id>
+            <name>SpringSource Enterprise Bundle Repository - External</name>
+            <url>http://repository.springsource.com/maven/bundles/external</url>
+        </pluginRepository>
     </pluginRepositories>
 
     <build>
