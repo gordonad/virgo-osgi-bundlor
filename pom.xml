@@ -383,7 +383,7 @@
                 <configuration>
                     <junitArtifactName>org.junit:com.springsource.org.junit</junitArtifactName>
                     <argLine>
-                        -javaagent:${user.home}/.m2/repository/org/springframework/spring-instrument/${spring.version}/spring-instrument-${spring.version}.jar
+                        -javaagent:${user.home}/.m2/repository/org/springframework/org.springframework.instrument/${spring.version}/org.springframework.instrument-${spring.version}.jar
                     </argLine>
                 </configuration>
                 <dependencies>
