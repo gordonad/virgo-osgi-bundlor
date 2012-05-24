@@ -16,3 +16,11 @@ Virgo Bundlor Test
 - Maven Profile _sbundlor_ for Spring Bundlor 1.0.0.RELEASE
 
 
+Installing into Maven repo:
+
+mvn install:install-file \
+ -Dfile=/code/osgi/virgo/bundlor-1.1.0/integration-repo/org.eclipse.virgo.bundlor/org.eclipse.virgo.bundlor.maven/1.1.0.BUILD-20120523194910/org.eclipse.virgo.bundlor.maven-1.1.0.BUILD-20120523194910.jar \
+  -DgroupId=org.eclipse.virgo.bundlor -DartifactId=org.eclipse.virgo.bundlor.maven -Dversion=1.1.0.M04 \
+  -Dpackaging=jar
+
+
