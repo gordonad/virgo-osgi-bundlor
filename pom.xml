@@ -29,7 +29,7 @@
         <maven.spring.bundlor.plugin>1.0.0.RELEASE</maven.spring.bundlor.plugin>
         <maven.surefire.plugin>2.12</maven.surefire.plugin>
         <maven.tycho.plugin>0.14.1</maven.tycho.plugin>
-        <maven.virgo.bundlor.plugin>1.1.0.M04</maven.virgo.bundlor.plugin>
+        <maven.virgo.bundlor.plugin>1.1.0.M05</maven.virgo.bundlor.plugin>
         <maven.versions.plugin>1.3.1</maven.versions.plugin>
         <maven.war.plugin>2.2</maven.war.plugin>
         <slf4j.version>1.6.4</slf4j.version>
