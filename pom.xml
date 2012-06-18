@@ -17,7 +17,7 @@
         <gemini.blueprint.version>1.0.0.RELEASE</gemini.blueprint.version>
         <java.version>1.6</java.version>
         <junit.version>4.10.0</junit.version>
-        <logback.version>1.0.3</logback.version>
+        <logback.version>1.0.6</logback.version>
         <maven.assembly.plugin>2.3</maven.assembly.plugin>
         <maven.clean.plugin>2.4.1</maven.clean.plugin>
         <maven.compiler.plugin>2.4</maven.compiler.plugin>
@@ -29,10 +29,10 @@
         <maven.spring.bundlor.plugin>1.0.0.RELEASE</maven.spring.bundlor.plugin>
         <maven.surefire.plugin>2.12</maven.surefire.plugin>
         <maven.tycho.plugin>0.14.1</maven.tycho.plugin>
-        <maven.virgo.bundlor.plugin>1.1.0.M04</maven.virgo.bundlor.plugin>
+        <maven.virgo.bundlor.plugin>1.1.0.M05</maven.virgo.bundlor.plugin>
         <maven.versions.plugin>1.3.1</maven.versions.plugin>
         <maven.war.plugin>2.2</maven.war.plugin>
-        <slf4j.version>1.6.4</slf4j.version>
+        <slf4j.version>1.6.6</slf4j.version>
         <spring.version>3.1.1.RELEASE</spring.version>
     </properties>
 
