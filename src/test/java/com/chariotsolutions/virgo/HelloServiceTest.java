@@ -1,4 +1,4 @@
-package com.chariotsolutions.virgo;
+package com.gordondickens.virgo;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

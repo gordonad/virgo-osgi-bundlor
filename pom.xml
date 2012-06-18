@@ -5,7 +5,7 @@
         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0
           http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
-    <groupId>com.chariotsolutions.virgo</groupId>
+    <groupId>com.gordondickens.virgo</groupId>
     <artifactId>virgo.bundlor.test</artifactId>
     <version>1.0.0</version>
 
@@ -14,6 +14,8 @@
 
     <properties>
         <aspectj.version>1.6.12.RELEASE</aspectj.version>
+        <eclipse.osgi.version>3.7.1.R37x_v20110808-1106</eclipse.osgi.version>
+        <eclipse.osgi.services.version>3.3.0.v20110513</eclipse.osgi.services.version>
         <gemini.blueprint.version>1.0.0.RELEASE</gemini.blueprint.version>
         <java.version>1.6</java.version>
         <junit.version>4.10.0</junit.version>
@@ -28,7 +30,7 @@
         <maven.source.plugin>2.1.2</maven.source.plugin>
         <maven.spring.bundlor.plugin>1.0.0.RELEASE</maven.spring.bundlor.plugin>
         <maven.surefire.plugin>2.12</maven.surefire.plugin>
-        <maven.tycho.plugin>0.14.1</maven.tycho.plugin>
+        <maven.tycho.plugin>0.15.0</maven.tycho.plugin>
         <maven.virgo.bundlor.plugin>1.1.0.M05</maven.virgo.bundlor.plugin>
         <maven.versions.plugin>1.3.1</maven.versions.plugin>
         <maven.war.plugin>2.2</maven.war.plugin>
@@ -72,13 +74,13 @@
         <dependency>
             <groupId>org.eclipse.osgi</groupId>
             <artifactId>org.eclipse.osgi</artifactId>
-            <version>3.6.0.v20100517</version>
+            <version>${eclipse.osgi.version}</version>
             <scope>test</scope>
         </dependency>
         <dependency>
             <groupId>org.eclipse.osgi</groupId>
             <artifactId>org.eclipse.osgi.services</artifactId>
-            <version>3.3.0.v20110110</version>
+            <version>${eclipse.osgi.services.version}</version>
             <scope>test</scope>
         </dependency>
     </dependencies>

@@ -10,7 +10,7 @@
         </encoder>
     </appender>
 
-    <logger name="com.chariotsolutions" level="debug" />
+    <logger name="com.gordondickens" level="debug" />
     <logger name="org.eclipse.virgo" level="trace" />
     <logger name="org.springframework.bundlor" level="trace" />
     <logger name="org.springframework.beans" level="info" />

@@ -1,4 +1,4 @@
-package com.chariotsolutions.virgo;
+package com.gordondickens.virgo;
 
 /**
  * User: gordondickens

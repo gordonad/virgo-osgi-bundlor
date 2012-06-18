@@ -1,6 +1,6 @@
-package com.chariotsolutions.virgo.internal;
+package com.gordondickens.virgo.internal;
 
-import com.chariotsolutions.virgo.HelloService;
+import com.gordondickens.virgo.HelloService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
